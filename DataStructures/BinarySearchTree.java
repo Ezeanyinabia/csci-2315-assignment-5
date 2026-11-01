@@ -101,7 +101,6 @@ public class BinarySearchTree
             return t;
         if( x.compareTo( t.element ) < 0 )
             t.left = remove( x, t.left );
-        else if( x.compareTo( t.element > 0 ) ) // Wait, standard comparison:
         else if( x.compareTo( t.element ) > 0 )
             t.right = remove( x, t.right );
         else if( t.left != null && t.right != null )
